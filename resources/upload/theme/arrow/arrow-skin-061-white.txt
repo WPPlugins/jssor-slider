@@ -1,0 +1,32 @@
+﻿{
+    id: "jssora061",
+    type: "arrow",
+    name: "arrow skin 061 white",
+    note: "",
+    css: ''
+        + '\r\n.jssora061 {display:block;position:absolute;cursor:pointer;}'
+        + '\r\n.jssora061 .a {fill:none;stroke:#fff;stroke-width:360;stroke-linecap:round;}'
+        + '\r\n.jssora061:hover {opacity:.8;}'
+        + '\r\n.jssora061.jssora061dn {opacity:.5;}'
+        + '\r\n.jssora061.jssora061ds {opacity:.3;pointer-events:none;}',
+    html: ''
+        + '\r\n<div data-u="arrowleft" class="jssora061" style="width:55px;height:55px;top:162px;left:25px;">'
+        + '\r\n    <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">'
+        + '\r\n        <path class="a" d="M11949,1919L5964.9,7771.7c-127.9,125.5-127.9,329.1,0,454.9L11949,14079" />'
+        + '\r\n    </svg>'
+        + '\r\n</div>'
+        + '\r\n<div data-u="arrowright" class="jssora061" style="width:55px;height:55px;top:162px;right:25px;">'
+        + '\r\n    <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">'
+        + '\r\n        <path class="a" d="M5869,1919l5984.1,5852.7c127.9,125.5,127.9,329.1,0,454.9L5869,14079" />'
+        + '\r\n    </svg>'
+        + '\r\n</div>',
+    defaultValue: {
+        itemWidth: 55,
+        itemHeight: 55,
+        poslLeft: 25,
+        posrRight: 25,
+        posAutoCenter: 2,
+        bhvScaleL: .75,
+        bhvScalePos: .75
+    }
+}

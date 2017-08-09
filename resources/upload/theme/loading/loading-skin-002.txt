@@ -1,0 +1,14 @@
+{
+    id: "jssorl02",
+    type: "loading",
+    name: "loading-skin-002",
+    note: '',
+    css: '',
+    html: ''
+        + '\r\n<div data-u="loading" style="position:absolute;top:0px;left:0px;width:100%;height:100%;background:url(/theme/img/loading2.gif) no-repeat 50% 50%; background-color: rgba(0, 0, 0, .7);"></div>',
+    defaultValue: {
+        itemWidth: 24,
+        itemHeight: 24,
+        cntrBgColor: "rgba(0,0,0,0.7)"
+    }
+}

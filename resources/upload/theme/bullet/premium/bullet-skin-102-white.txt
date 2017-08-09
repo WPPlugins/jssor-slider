@@ -1,0 +1,33 @@
+﻿{
+    id: "jssorb102",
+    type: "bullet",
+    name: "bullet skin 102 white",
+    note: "<!-- Note: a[0] = id; a[1] = itemWidth; a[2] = itemHeight; -->",
+    css: ''
+        + '\r\n.jssorb102 .i {position:absolute;cursor:pointer;}'
+        + '\r\n.jssorb102 .i .ci {fill:#fff;}'
+        + '\r\n.jssorb102 .i .co {fill:#000;opacity:.2;}'
+        + '\r\n.jssorb102 .i:hover .co {fill:#ff9933;opacity: 1;}'
+        + '\r\n.jssorb101 .i:hover .ci {fill:#000;}'
+        + '\r\n.jssorb102 .iav .ci {fill:#000;stroke-width:0;}'
+        + '\r\n.jssorb102 .iav .co {fill:#ffba04;opacity: 1;}'
+        + '\r\n.jssorb102 .i.idn {opacity:.3;}',
+    html: ''
+        + '\r\n<div data-u="navigator" class="jssorb102" style="position:absolute;bottom:16px;right:16px;">'
+        + '\r\n    <div data-u="prototype" class="i" style="width:{{v:1}}px;height:{{v:2}}px;">'
+        + '\r\n        <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">'
+        + '\r\n            <circle class="co" cx="8000" cy="8000" r="5000"/>'
+        + '\r\n            <circle class="ci" cx="8000" cy="8000" r="3000"/>'
+        + '\r\n        </svg>'
+        + '\r\n    </div>'
+        + '\r\n</div>',
+    defaultValue: {
+        itemWidth: 16,
+        itemHeight: 16,
+        posRight: 12,
+        posBottom: 12,
+        posAutoCenter: 1,
+        bhvScaleL: .5,
+        bhvScalePos: .75
+    }
+}
